@@ -1,6 +1,9 @@
 # Crypto Exchanges Latencies Test
 This repository contains a script and the related data for testing and analyzing the latencies of cryptocurrency centralized exchanges (CEX) using [Hummingbot](https://hummingbot.org/) environment. The data provided represents the latency measurements of different cryptocurrency exchanges from various AWS regions.
 
+Read more about this approach and explore the results in this article:
+[A Latency Analysis of Binance Exchange Across AWS Regions](https://viktoriatsybko.substack.com/p/an-analysis-of-binance-exchange-across)
+
 ## Repository Contents
 - `latencies_test.py`: A Python script for conducting the latencies tests.
   This script is designed for users of the Hummingbot trading platform who wish to measure the latency between order creation, execution, and cancellation on a specified exchange. By placing both market and limit orders at regular intervals, this script captures and logs the duration taken for various order states. It aims to provide insights into the performance and efficiency of the chosen exchange and Hummingbot's interaction with it.
