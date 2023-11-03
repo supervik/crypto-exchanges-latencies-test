@@ -27,5 +27,5 @@ Read more about this approach and explore the results in this article:
     | Timestamp   | Marks the precise time of the event in milliseconds since the Unix epoch. |
     | Order_ID    | A unique identifier for each order. |
     | Status      | Describes the event's nature. The dataset contains six different statuses: PENDING_CREATE, PENDING_CANCEL, PENDING_EXECUTE mark the time just before a request is sent to the exchange; CREATED, CANCELED, EXECUTED mark the time when the exchange confirms the order's execution |
-
+- `ping_url.py`: A Python script for measuring the response times of a given URL by sending multiple HTTP GET requests
 
